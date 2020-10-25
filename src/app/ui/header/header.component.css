@@ -1,0 +1,58 @@
+.navbar {
+    height: 70px;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navbar li form input {
+    height: 70%;
+    transition: 0.3s;
+    margin-bottom: 0px;
+    margin-top: 2px;
+    width: 300px;
+    border: none;
+    background-color: rgba(204, 204, 204, 0.295);
+    color: rgb(255, 255, 255);
+    margin-left: 5px;
+}
+
+.navbar li form input:focus{
+    background-color: rgba(255, 255, 255, 0.739);
+    width: 340px;
+    transition: 0.3s;
+    color: rgb(117, 117, 117);
+}
+
+.navbar li form input::placeholder{
+    color: rgb(212, 212, 212);
+    transition: 0.3s;
+}
+.navbar li form input:focus::placeholder {
+    font-weight: 300;
+    color: rgb(109, 109, 109);
+}
+
+
+
+
+#navbarMobile li {
+    margin: 3px 0px 0px 10px;
+}
+
+@media screen and (max-width: 600px) {
+        
+    .navbar li form input:focus{
+        background-color: rgba(255, 255, 255, 0.739);
+        width: 300px;
+        transition: 0.3s;
+        color: rgb(117, 117, 117);
+    }
+  
+    #navbarMobile {
+        background: #28A745;
+        margin: 0;
+        padding: 5px;
+        z-index: 1;
+        width: 100%;
+    }
+}
