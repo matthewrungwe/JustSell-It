@@ -7,12 +7,12 @@ import { UiModule } from './ui/ui.module';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    UiModule
+    UiModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
