@@ -1,0 +1,114 @@
+* {
+    margin-left: 10px;
+}
+
+.categoryTitle{
+    color: lightgreen;
+}
+
+.column {
+    float: left;
+}
+
+/* Left and right column */
+.column.side {
+    width: 25%;
+    padding-right: 5px;
+    padding: 15px;
+    height: 80vh;
+    margin-top: 20px;
+}
+
+.column.side li a{
+    text-decoration: none;
+    list-style-type: none;
+    color: rgb(141, 141, 141);
+    transition: 0.2s;
+}
+
+.column.side li a:hover {
+    color: rgb(255, 166, 0);
+    margin-left: 5px;
+    transition: 0.2s;
+}
+
+.column.side li{
+    list-style-type: none;
+}
+
+/* Middle column */
+.column.middle {
+    margin-top: 20px;
+    width: 70%;
+    height: 80vh;
+    background: rgba(221, 221, 221, 0.603);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* Source */
+.soucre {
+    clear: both;
+}
+ .source input {
+    border: none;
+    margin-top: 5px;
+    background: rgb(216, 216, 216);
+    outline: none;
+    width: 80%;
+}
+
+.source input:focus::placeholder{
+    background-color: rgba(255, 255, 255, 0.739);
+    color: #ccc;
+    transition: 0.1s;
+}
+
+.source input::placeholder{
+    padding: 5px;
+}
+
+.source > .btn{
+    margin-top: 10px;
+    margin-right:0;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    
+    * {
+        margin: 0px;
+    }
+
+    hr {
+        margin-top: 10px;
+    }
+
+    .source {
+        margin-top: 10px;
+    }
+        .source input {
+        width: 100%;
+        height: 30px;
+    }
+
+    .column.side {
+        width: 100%;
+        padding-right: 5px;
+        padding: 15px;
+        height: auto;
+        margin-top: 5px;
+    }
+
+    .column.middle {
+        margin-top: 20px;
+        width: 100%;
+        height: auto;
+        background: rgba(221, 221, 221, 0.603);
+        padding: 15px;
+        border-radius: 10px;
+        margin: 10px;
+    }
+
+}
