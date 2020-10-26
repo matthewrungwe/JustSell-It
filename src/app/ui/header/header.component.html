@@ -1,7 +1,7 @@
   <nav class="navbar navbar-expand-lg navbar-dark bg-success">
     <div class = "container">
         <!-- This is the application title with a link to the root -->
-        <a class="navbar-brand" routerLinkActive="active" routerLink="/home">
+        <a class="navbar-brand" routerLinkActive="active" routerLink="/">
             <img src="\assets\img\Logo.png" width = "135" height = "25" alt="logo" class="d-inline-block" >
         </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMobile" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,7 +21,7 @@
             </li>
             <li class="nav-item">
                 <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search & source easy" aria-label="Search">
                 </form>
             </li>
       </ul>
@@ -29,6 +29,8 @@
       <span id="navbarMobile">
         <ul class="navbar-nav">
             <!-- Each link has the routerLink property set to a different route -->
+            <li> <a class="nav-item nav-link" routerLinkActive="active" routerLink="/cart">Cart</a></li>
+            <li> <a class="nav-item nav-link" routerLinkActive="active" routerLink="/home">Home</a></li>
            <li> <a class="nav-item nav-link" routerLinkActive="active" routerLink="/about">About</a></li>
            <li> <a class="nav-item nav-link" routerLinkActive="active" routerLink="/login">Login</a></li>
         </ul>

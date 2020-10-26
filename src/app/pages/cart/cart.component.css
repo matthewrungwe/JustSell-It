@@ -1,0 +1,93 @@
+.itemlist-row {
+    width: 60%;
+    margin: 30px;
+    padding: 20px;
+    background: rgba(226, 226, 226, 0.603);
+    border-radius: 10px;
+    float: left;
+    transition: 0.5s
+}
+
+.itemlist-row:hover {
+    background: rgba(236, 236, 236, 0.603);
+
+}
+
+.itemlist-row img{
+    padding: 15px;
+    height: 150px;
+}
+
+.item-desc {
+    margin-top: 10px;
+}
+
+.item-desc .color{
+    font-weight: bold;
+}
+
+.item-desc .price{
+    font-weight: bold;
+}
+
+.item-desc p{
+    margin:5px;
+}
+
+.order-summary{
+    width: 30%;
+    margin: 30px;
+    padding: 20px;
+    background: rgba(226, 226, 226, 0.603);
+    border-radius: 10px;
+    float: left;
+    transition: 0.5s
+}
+
+.order-summary:hover {
+    background: rgba(236, 236, 236, 0.603);
+}
+
+.order-summary p{
+    margin-bottom:5px;
+}
+
+.order-summary p span{
+    float:right;
+    cursor: pointer;
+}
+
+.order-summary p span:hover {
+    color: rgba(247, 145, 29, 0.877);
+}
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+
+  .itemlist-row {
+    width: 90%;
+    margin: 15px;
+    padding: 20px;
+    background: rgba(226, 226, 226, 0.603);
+    border-radius: 10px;
+    float: left;
+    transition: 0.5s
+
+    }
+
+    .order-summary{
+        width: 90%;
+        margin: 15px;
+        padding: 20px;
+        background: rgba(226, 226, 226, 0.603);
+        border-radius: 10px;
+        float: left;
+        transition: 0.5s
+    }
+    
+
+}
